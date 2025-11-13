@@ -1,0 +1,12 @@
+{
+  "encoder": "glove",
+  "pooling": "tfidf",
+  "classifier": "mlp",
+  "test_accuracy": 0.69384,
+  "test_f1": 0.691171723692705,
+  "test_precision": 0.6972484532725497,
+  "test_recall": 0.6852,
+  "n_train": 22500,
+  "n_val": 2500,
+  "n_test": 25000
+}

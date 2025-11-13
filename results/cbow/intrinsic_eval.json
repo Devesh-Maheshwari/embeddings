@@ -1,0 +1,179 @@
+{
+  "similarity_pearson": 0.32822921184838894,
+  "analogy_top1": {
+    "3CosAdd": 0.0,
+    "3CosMul": 0.0
+  },
+  "counts": {
+    "similarity_evaluated": 7,
+    "analogies_evaluated": 8
+  },
+  "samples": {
+    "analogy_add": [
+      {
+        "q": [
+          "king",
+          "man",
+          "queen",
+          "woman"
+        ],
+        "pred": "her",
+        "ok": false
+      },
+      {
+        "q": [
+          "paris",
+          "france",
+          "london",
+          "england"
+        ],
+        "pred": "german",
+        "ok": false
+      },
+      {
+        "q": [
+          "good",
+          "better",
+          "bad",
+          "worse"
+        ],
+        "pred": "remove",
+        "ok": false
+      },
+      {
+        "q": [
+          "big",
+          "bigger",
+          "small",
+          "smaller"
+        ],
+        "pred": "certain",
+        "ok": false
+      },
+      {
+        "q": [
+          "he",
+          "his",
+          "she",
+          "her"
+        ],
+        "pred": "mother",
+        "ok": false
+      },
+      {
+        "q": [
+          "uncle",
+          "aunt",
+          "brother",
+          "sister"
+        ],
+        "pred": "father",
+        "ok": false
+      },
+      {
+        "q": [
+          "walk",
+          "walking",
+          "swim",
+          "swimming"
+        ],
+        "pred": "conditions",
+        "ok": false
+      },
+      {
+        "q": [
+          "cat",
+          "cats",
+          "dog",
+          "dogs"
+        ],
+        "pred": "lens",
+        "ok": false
+      }
+    ],
+    "analogy_mul": [
+      {
+        "q": [
+          "king",
+          "man",
+          "queen",
+          "woman"
+        ],
+        "pred": "gulag",
+        "ok": false
+      },
+      {
+        "q": [
+          "paris",
+          "france",
+          "london",
+          "england"
+        ],
+        "pred": "german",
+        "ok": false
+      },
+      {
+        "q": [
+          "good",
+          "better",
+          "bad",
+          "worse"
+        ],
+        "pred": "remove",
+        "ok": false
+      },
+      {
+        "q": [
+          "big",
+          "bigger",
+          "small",
+          "smaller"
+        ],
+        "pred": "bigger",
+        "ok": false
+      },
+      {
+        "q": [
+          "he",
+          "his",
+          "she",
+          "her"
+        ],
+        "pred": "mother",
+        "ok": false
+      },
+      {
+        "q": [
+          "uncle",
+          "aunt",
+          "brother",
+          "sister"
+        ],
+        "pred": "father",
+        "ok": false
+      },
+      {
+        "q": [
+          "walk",
+          "walking",
+          "swim",
+          "swimming"
+        ],
+        "pred": "ducks",
+        "ok": false
+      },
+      {
+        "q": [
+          "cat",
+          "cats",
+          "dog",
+          "dogs"
+        ],
+        "pred": "rec",
+        "ok": false
+      }
+    ]
+  },
+  "dim": 300,
+  "vocab_size": 18497
+}

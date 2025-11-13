@@ -1,0 +1,12 @@
+{
+  "encoder": "skipgram",
+  "pooling": "tfidf",
+  "classifier": "mlp",
+  "test_accuracy": 0.70396,
+  "test_f1": 0.6998174812411275,
+  "test_precision": 0.7097490744549568,
+  "test_recall": 0.69016,
+  "n_train": 22500,
+  "n_val": 2500,
+  "n_test": 25000
+}

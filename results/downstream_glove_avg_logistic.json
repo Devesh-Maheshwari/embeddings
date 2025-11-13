@@ -1,0 +1,12 @@
+{
+  "encoder": "glove",
+  "pooling": "avg",
+  "classifier": "logistic",
+  "test_accuracy": 0.75264,
+  "test_f1": 0.7388513513513514,
+  "test_precision": 0.782468694096601,
+  "test_recall": 0.69984,
+  "n_train": 22500,
+  "n_val": 2500,
+  "n_test": 25000
+}

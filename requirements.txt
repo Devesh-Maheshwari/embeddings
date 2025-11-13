@@ -1,0 +1,33 @@
+# Core dependencies
+streamlit==1.51.0
+pandas==2.3.3
+numpy==2.3.3
+matplotlib==3.10.6
+seaborn==0.13.2
+plotly==6.4.0
+
+# ML / Embedding modules
+scikit-learn==1.7.2
+scipy==1.16.2
+torch==2.8.0
+torchvision==0.23.0
+
+# NLP & datasets
+datasets==4.2.0
+huggingface-hub==0.35.3
+
+# Utility / parsing / YAML
+PyYAML==6.0.3
+tqdm==4.67.1
+requests==2.32.5
+
+# Optional extras
+altair==5.5.0
+watchdog==6.0.0
+fsspec==2025.9.0
+
+# Plotting / visualization
+pydeck==0.9.1
+
+# Misc utils
+joblib==1.5.2

@@ -1,0 +1,113 @@
+# ==========================
+# OS & Editor Files
+# ==========================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# ==========================
+# Python & Build Artifacts
+# ==========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+*.log
+
+# ==========================
+# Virtual Environments
+# ==========================
+.env
+.venv
+venv/
+env/
+*.env
+
+# ==========================
+# Jupyter / IPython
+# ==========================
+.ipynb_checkpoints/
+*.ipynb_checkpoint
+*.ipynb_save
+*.ipynb_hidden
+
+# ==========================
+# Data & Datasets
+# ==========================
+# Raw and processed datasets
+datasets/**/*.zip
+datasets/**/*.pkl
+datasets/**/*.npz
+datasets/**/*.csv
+datasets/**/*.txt
+datasets/**/*.json
+datasets/processed/
+pretraining/**/datasets/
+pretraining/**/training_logs/
+results/skipgram/vectors.npz
+results/glove_preproc.pkl
+results/glove/vectors.npz
+
+# ==========================
+# Streamlit Caches / Assets
+# ==========================
+.streamlit/
+streamlit_app/__pycache__/
+streamlit_app/assets/
+streamlit_app/**/*.pyc
+
+# ==========================
+# Model Weights / Checkpoints
+# ==========================
+**/small_pretrained_weights/
+**/checkpoints/
+**/runs/
+**/outputs/
+**/models/
+**/weights/
+**/embeddings/
+*.pt
+*.pth
+*.bin
+
+# ==========================
+# Experiment Outputs
+# ==========================
+experiments/*.csv
+experiments/*.json
+experiments/*.pkl
+experiments/*.log
+experiments/__pycache__/
+experiments/**/.ipynb_checkpoints/
+
+# ==========================
+# Miscellaneous / Temp
+# ==========================
+*.tmp
+*.bak
+*.orig
+*.old
+*.out
+*.err
+
+# ==========================
+# Local Configs / Secrets
+# ==========================
+config.yaml
+secrets.yaml
+*.credentials
+*.token
+*.key
+
+
+# ==========================
+# Markdown & Docs
+# ==========================
+*.md

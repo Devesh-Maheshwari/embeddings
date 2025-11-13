@@ -1,0 +1,12 @@
+{
+  "encoder": "cbow",
+  "pooling": "avg",
+  "classifier": "logistic",
+  "test_accuracy": 0.72796,
+  "test_f1": 0.71173653202221,
+  "test_precision": 0.7568737041377446,
+  "test_recall": 0.67168,
+  "n_train": 22500,
+  "n_val": 2500,
+  "n_test": 25000
+}

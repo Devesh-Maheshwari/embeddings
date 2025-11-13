@@ -1,0 +1,12 @@
+{
+  "encoder": "tfidf",
+  "pooling": "avg",
+  "classifier": "logistic",
+  "test_accuracy": 0.88756,
+  "test_f1": 0.8845727425779165,
+  "test_precision": 0.9087150932253438,
+  "test_recall": 0.86168,
+  "n_train": 22500,
+  "n_val": 2500,
+  "n_test": 25000
+}
